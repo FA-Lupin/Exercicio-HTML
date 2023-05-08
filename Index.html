@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscrição EBAC</title>
+  </head>
+  <body>
+    <h1>Cadastro para o Curso Full-stack Python</h1>
+    <hr />
+    <form>
+      <label>Nome Completo :</label>
+      <input type="text" placeholder="Nome" name="Nome" id="Nome" />
+      <br />
+      <label>Insira seu E-mail :</label>
+      <input type="email" placeholder="E-mail" />
+      <br />
+      <label> Crie uma Senha :</label>
+      <input type="text" placeholder="Senha" />
+      <br />
+      <label>Telefone :</label>
+      <input type="tel" placeholder="Numero de Contato" />
+      <br />
+      <label>Masculino</label>
+      <input type="radio" name="Sexo" id="MA" />
+      <label>Feminino</label>
+      <input type="radio" name="Sexo" id="FE" />
+      <br />
+      <label>Como conheceu a <b>E.B.A.C</b> ?</label>
+      <select>
+        <option value="Amigos">Amigos</option>
+        <option value="Anuncios">Anúncios</option>
+        <option value="Outro">Outro</option>
+      </select>
+      <br />
+      <textarea
+        name="Descrição"
+        placeholder="Escreva um pouco sobre você e oque espera do curso"
+        id="Txarea"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br />
+      <input type="checkbox" name="Termos" id="Termos" />
+      <label>Aceito os Termos</label>
+      <br />
+      <button type="submit">Finalizar Cadastro</button>
+    </form>
+  </body>
+</html>
